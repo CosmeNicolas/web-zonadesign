@@ -10,6 +10,7 @@ body {
 .formulario {
   padding-top: 150px;
   padding-bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .formColor {
   background-color: rgba(174, 68, 90, 0.7);
