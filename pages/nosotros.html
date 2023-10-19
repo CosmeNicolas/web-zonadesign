@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Venta de productos personalizados" />
+    <meta name="author" content="Pablo Moyano. Mariana Sosa, Guadalupe Villarreal, Cosme Nicolas Mas " />
+    <meta
+      name="keywords"
+      content="sublimacion, gorras, tazas, jarros, remeras, mouse pad, termicos"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/nosotros.css" />
+    <script
+      src="https://kit.fontawesome.com/2c3a22bcfc.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Zonadesign</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-inverse navbar-estilo">
+        <div class="container justify-content-center">
+          <div class="contenedorLogo">
+            <a class="navbar-brand" href="../index.html">
+              <img
+                id="imagenLogo"
+                src="../img/logo.png"
+                alt="Logo"
+                class="d-inline-block align-text-top"
+              />
+            </a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 my-3">
+              <div class="buscar">
+                <div class="form-outline">
+                  <input
+                    type="search"
+                    id="form1"
+                    placeholder="Buscar"
+                    class="form-control"
+                  />
+                </div>
+                <button type="button" class="btn">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./login.html"
+                  >Ingresar</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="../pages/error404.html"
+                  class="nav-link"
+                  data-toggle="modal"
+                  data-target="#contactModal"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item my-2">
+                <a id="iconoCarrito" href="./carrito.html">
+                  <i class="fa-solid fa-cart-shopping fs-4"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="pt-5">
+      <section class="pt-5 mt-1">
+        <div class="container text-center sobre-nosotros-fondo">
+          <h2 class="fs-1 pt-5">Acerca de Nosotros</h2>
+          <p class="fs-5">
+            Somos una empresa joven, muy joven de sublimados y serigrafia que es
+            como una fábrica mágica donde los objetos aburridos se transforman
+            en obras de arte coloridas, ¡con la capacidad de hacer que hasta las
+            camisetas más serias se sientan fashionistas!
+          </p>
+          <p class="fs-5">
+            Nuestros colaboradores están capacitados para asesorarte de la mejor
+            manera y que el producto final sea el que imaginaste.
+          </p>
+
+          <article class="row justify-content-center mt-5 estilo-nosotros">
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+              <img
+                class="img-nosotros my-3"
+                src="../img/Mariana.jpg"
+                alt="remeras"
+              />
+              <div class="nosotros-card-body">
+                <h4 class="card-title">Mariana</h4>
+                <p class="card-text">Asesora de Ventas</p>
+                <p class="card-text">
+                  Te ayudara a tomar las mejores decisiones de compra y venta
+                  para tu negocio, donde el limite es vender en la luna
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+              <img
+                class="img-nosotros my-3"
+                src="../img/Nico.jpg"
+                alt="tazas"
+              />
+              <div class="nosotros-card-body">
+                <h4 class="card-title">Nico</h4>
+                <p class="card-text">Asesor Comercial</p>
+                <p class="card-text">
+                  Te ayudará conectar con clientes altamente potenciales,
+                  identificando oportunidades de venta, negociar contratos y
+                  cerrar acuerdos.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+              <img
+                class="img-nosotros my-3"
+                src="../img/pablo.jpg"
+                alt="foto de Pablo"
+              />
+              <div class="nosotros-card-body">
+                <h4 class="card-title">Pablo</h4>
+                <p class="card-text">Diseño y digitalización de imágenes</p>
+                <p class="card-text">
+                  Crea y desarrolla soluciones visuales, gráficas o de
+                  productos, basadas en la estética, la funcionalidad y las
+                  necesidades del cliente. "Si esta en tu cabeza, es posible"
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+              <img
+                class="img-nosotros my-3"
+                src="../img/Guada.jpg"
+                alt="Guada"
+              />
+              <div class="nosotros-card-body">
+                <h4 class="card-title">Guada</h4>
+                <p class="card-text">Especialista en Marketing</p>
+                <p class="card-text">
+                  Desarrolla estrategias y tácticas para promocionar productos o
+                  servicios, identificar y llegar a la audiencia objetivo, y
+                  aumentar la visibilidad y las ventas de una empresa.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <div
+        class="modal fade"
+        id="contactModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="contactModalLabel"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-lg modal-dialog-centered"
+          role="document"
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="contactModalLabel">
+                Comunicate con nosotros!!
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Cerrar"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body modal-contacto">
+              <div class="row">
+                <div class="col-md-6">
+                  <form>
+                    <div class="form-group">
+                      <label for="nombre">Nombre</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        maxlength="30"
+                        minlength="2"
+                        id="nombre"
+                        placeholder="Nombre"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Correo Electrónico</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        maxlength="50"
+                        minlength="10"
+                        id="email"
+                        placeholder="Correo Electrónico"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="mensaje">Mensaje</label>
+                      <textarea
+                        class="form-control"
+                        id="mensaje"
+                        maxlength="150"
+                        minlength="10"
+                        rows="3"
+                        placeholder="Mensaje"
+                        required
+                      ></textarea>
+                    </div>
+                    <button type="submit" class="btn mt-2 me-2 btnEnviar">
+                      Enviar
+                    </button>
+                  </form>
+                </div>
+                <div class="col-md-6">
+                  <p class="d-flex justify-content-center">Encuentranos Aquí</p>
+                  <iframe
+                    class="img-fluid"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1224557766204!2d-65.20948482454776!3d-26.83605719000534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0ef228d361%3A0x2bf6f10cbd5f68fa!2sGral.%20Paz%20565%2C%20T4000BLK%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1695871097105!5m2!1ses-419!2sar"
+                    width="600"
+                    height="950"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                  <p class="d-flex justify-content-center">Nuestras Redes</p>
+                  <div class="d-flex justify-content-center">
+                    <a
+                      type="submit"
+                      href="https://www.facebook.com"
+                      class="mx-2"
+                      ><img
+                        src="../img/facebook-logo.png"
+                        alt="logo face"
+                        width="65"
+                    /></a>
+                    <a
+                      type="submit"
+                      href="https://www.instagram.com"
+                      class="mt-2"
+                      ><img
+                        src="../img/logo-instagram.png"
+                        alt="logo Instagram"
+                        width="65"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <img src="../img/logo.png" class="img-fluid img-footer" alt="" />
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <h5 class="estilo-btn-footer">Nuestros Productos!</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="../pages/tazas.html"
+                  class="link-light link-underline-opacity-0"
+                  >Tazas</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../pages/remeras.html"
+                  class="link-light link-underline-opacity-0"
+                  >Remeras</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../pages/almohadas.html"
+                  class="link-light link-underline-opacity-0"
+                  >Almohadas</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3 text-light">
+            <h5 class="estilo-btn-footer">Nuestro horario de atención son:</h5>
+            <p>Lunes a Viernes horario de corrido de 8 a 18hrs</p>
+            <h5 class="estilo-btn-footer">Nos Encontramos en:</h5>
+            <p>
+              Aldolfo Alsina 2256, localidad de Florida, Provincia de Buenos
+              Aires
+            </p>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <h5 class="estilo-btn-footer">Seguinos en nuestras REDES!</h5>
+            <a href="../pages/error404.html" class="link-light"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="../pages/error404.html" class="link-light mx-2"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="../pages/error404.html" class="link-light"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+            <a href="../pages/error404.html" class="link-light mx-2"
+              ><i class="bi bi-twitch"></i
+            ></a>
+            <a href="../pages/error404.html" class="link-light"
+              ><i class="bi bi-tiktok"></i
+            ></a>
+            <a href="../index.html" class="py-4">
+              <hr class="estilo-btn-footer" />
+              <i class="bi bi-arrow-up-circle-fill fs-1 estilo-btn-footer"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/86fe48ff47.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  </body>
+</html>

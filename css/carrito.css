@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.carrito {
+    padding-top: 150px;
+    padding-bottom: 30px;
+  }
+
+
+.colorCarrito{
+  background-color:#F39F5A;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 20px;
+  /*padding: 70px;  */
+}
+.tamIcono{
+	font-size: 3rem;
+	margin-left: 20px;
+	margin-top: 10px;
+	color:rgb(69, 25, 82);
+}
+.tamIcono:hover{
+	color: #AE445A;
+}
+#colorBotonComprar{
+  background-color: rgb(69, 25, 82);
+	color: aliceblue;
+	width: 200px;
+}
+.colorTotal{
+  background-color: #AE445A;
+  color: aliceblue;
+}
+#btnEliminar1{
+	background-color: rgb(69, 25, 82);
+  color: aliceblue;
+}
+#btnEliminar2{
+	background-color: rgb(69, 25, 82);
+  color: aliceblue;
+}
+.btnMasMenos{
+  color: rgb(69, 25, 82);
+}
+
+@media (max-width: 576px) {
+  .tamIcono{
+		font-size: 2rem;
+		margin-left: 10px;
+		margin-top: 10px;
+		color:rgb(69, 25, 82);
+	}
+  .colorCarrito{
+    background-color:#F39F5A;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 20px;
+  }
+  .btnMasMenos{
+    display: none;
+  }
+  .carrito {
+    padding-top: 120px;
+    padding-bottom: 0px;
+  }
+}

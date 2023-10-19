@@ -1,0 +1,33 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(233, 230, 226);
+}
+main {
+  flex-grow: 1;
+}
+
+
+.nosotros-card-body p{
+    margin: 0;
+    color: aliceblue;
+}
+.nosotros-card-body h4{
+  margin: 0;
+  color: aliceblue;
+}
+.estilo-nosotros {
+  background-color: #AE445A;
+  color: aliceblue;
+}
+
+.img-nosotros{
+  width: 150px;
+  border-radius: 50%;
+  border: solid 2px black;
+}
+
+.sobre-nosotros-fondo{
+  background-color: #F39F5A;
+}

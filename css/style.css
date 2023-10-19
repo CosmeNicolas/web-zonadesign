@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Chango&display=swap");
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+}
+
+
+.navbar-estilo {
+  background-color: #662549;
+}
+
+.navbar ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.navbar i {
+  color: aliceblue;
+}
+.navbar ul li a:hover {
+  color: #f39f5a;
+}
+.navbar i:hover {
+  color: #f39f5a;
+}
+
+#imagenLogo {
+  width: 100px;
+  height: 100px;
+}
+
+#iconoCarrito {
+  color: #151515;
+}
+
+#colorLogo {
+  color: #ae445a;
+}
+
+.promociones-carrousel {
+  padding-top: 105px;
+}
+
+.buscar {
+  display: flex;
+  flex-direction: row;
+}
+.buscar input {
+  width: 200px;
+}
+
+.fas {
+  color: aliceblue;
+}
+
+.modal-contacto {
+  background-color: #f39f5a;
+  font-size: 20px;
+}
+
+.close {
+  border-radius: 30px;
+  width: 30px;
+  background-color: #451952;
+  color: aliceblue;
+}
+.modal-header {
+  background-color: #ae445a;
+  color: aliceblue;
+}
+.btnEnviar {
+  width: 100px;
+  color: aliceblue;
+  background-color: #7d3294;
+}
+.btnEnviar:hover {
+  background-color: #ae445a;
+}
+.close:hover {
+  background-color: #f39f5a;
+}
+
+.principal-descripcion {
+  color: #000;
+}
+
+.img-footer {
+  width: 150px;
+}
+
+.container-img-login {
+  padding-top: 5%;
+}
+
+.img-login {
+  width: 300px;
+  height: 300px;
+  padding-top: 50px;
+  animation: logo 10s ease-in-out 0s infinite normal forwards;
+}
+
+.img-footer {
+  width: 200px;
+  height: 200px;
+}
+
+.navbar-toggler{
+  color: rgb(184, 157, 166);
+  background: #963a6d;
+}
+
+
+@keyframes logo {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateY(-8px);
+  }
+
+  20%,
+  40%,
+  60% {
+    transform: translateY(8px);
+  }
+
+  80% {
+    transform: translateY(6.4px);
+  }
+
+  90% {
+    transform: translateY(-6.4px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .promociones-carrousel {
+    display: none;
+  }
+
+  .img-login {
+    display: none;
+  }
+
+
+  .row-sobre-nosotros {
+    padding-top: 100px;
+  }
+
+  #imagenLogo {
+    width: 75px;
+    height: auto;
+  }
+  .contenedorLogo {
+    display: flex;
+    margin-right: 80px;
+    justify-content: center;
+  }
+  .hover-word {
+    color: aliceblue;
+    transition: color 0.3s;
+  }
+  .hover-word:hover {
+    color: #f39f5a;
+  }
+  #navbarSupportedContent {
+    width: 100%;
+  }
+
+  .buscar {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+  }
+  .buscar input {
+    width: 180px;
+    height: 40px;
+  }
+  .buscar label {
+    font-size: 20px;
+  }
+  .btnEnviar {
+    width: 100px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.7s;
+    z-index: 10;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+  }
+  #imagenLogo {
+    width: 75px;
+    height: auto;
+  }
+
+  header.abajo ul li a {
+    color: #000;
+  }
+  .hover-word {
+    color: #000;
+    transition: color 0.3s;
+  }
+  .hover-word:hover {
+    color: #f39f5a;
+  }
+
+  #navbarSupportedContent ul li a {
+    margin-left: 100px;
+  }
+  #navbarSupportedContent input {
+    margin-left: 10px;
+  }
+
+  .buscar {
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+  }
+  .buscar input {
+    width: 300px;
+    height: 40px;
+  }
+  .buscar label {
+    font-size: 20px;
+  }
+  .btnEnviar {
+    width: 100px;
+    color: aliceblue;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+.img-carrousel {
+  height: 400px;
+  object-fit: cover;
+}
+
+.boton-slide {
+  width: 5%;
+}
+.img-diaDeLaMadre {
+  height: 400px;
+}
+.boton-estilo {
+  background-color: #451952;
+  color: aliceblue;
+}
+.boton-estilo:hover {
+  background-color: #662549;
+  color: aliceblue;
+}
+
+.boton-paginacion {
+  background-color: #662549;
+  color: aliceblue;
+}
+
+.estrella-comentario {
+  color: #e9b824;
+}
+
+.textarea-comentario {
+  height: 100px;
+  resize: none;
+}
+
+.borde-comentario {
+  border: 1px solid #662549;
+}
+
+@media all and (min-width: 992px) {
+  .img-carrousel {
+    height: 350px;
+  }
+
+  .img-diaDeLaMadre {
+    height: 350px;
+    object-fit: fill;
+  }
+}
+
+.productos {
+  background-color: #f39f5ab6;
+}
+
+.productosbtn {
+  background-color: #451952;
+  color: aliceblue;
+}
+
+.productosbtn:hover {
+  background-color: #7d3294;
+  color: aliceblue;
+}
+
+footer {
+  background: #451952;
+}
+.estilo-btn-footer {
+  color: #f39f5a;
+}
+footer h5 a {
+  color: #f39f5a;
+}
+
+.botonInit {
+  background-color: #451952;
+  border-color: black;
+  color: #f8f4f4;
+  width: 150px;
+}
+.botonInit:hover {
+  background-color: #f39f5a;
+}
+.btnColor {
+  background-color: #451952;
+  border-color: black;
+  color: #f8f4f4;
+}
+.btnColor:hover {
+  background-color: #ae445a;
+}
+
+.mainlogin {
+  padding-top: 30px;
+  font-family: "Oswald", sans-serif;
+  color: #f8f4f4;
+}
+.bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.color {
+  background: linear-gradient(
+    to bottom,
+    rgb(174, 68, 90),
+    rgb(243, 159, 90),
+    rgb(69, 20, 82)
+  );
+}
+.btnColor {
+  background-color: #451952;
+}
+.tamIcono {
+  font-size: 3rem;
+  margin-top: 50px;
+  color: rgb(69, 25, 82);
+}
+.tamIcono:hover {
+  color: #f39f5a;
+}
+.btnTam {
+  width: 150px;
+}
+#botonIniciar {
+  background-color: #451952;
+  color: aliceblue;
+}
+#botonIniciar:hover {
+  background-color: #f39f5a;
+  color: aliceblue;
+}
+.btnFG {
+  width: 200px;
+}
+@media screen and (max-width: 767px) {
+  .img-login-display {
+    display: none;
+  }
+  .tamIcono {
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: rgb(69, 25, 82);
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    transition: 0.7s;
+    z-index: 10;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+  }
+
+  #imagenLogo {
+    width: 75px;
+    height: auto;
+  }
+
+  header.abajo {
+    background: #662549;
+    padding: 15px 20px;
+  }
+
+  header.abajo ul li a {
+    color: #000;
+  }
+
+  
+
+  .hover-word {
+    color: #000;
+    transition: color 0.3s;
+  }
+
+  .hover-word:hover {
+    color: #f39f5a;
+  }
+
+  #navbarSupportedContent {
+    width: 100%;
+    background: #662549;
+  }
+
+  #navbarSupportedContent ul li a {
+    margin-left: 100px;
+  }
+
+  #navbarSupportedContent input {
+    margin-left: 10px;
+  }
+
+  .contenedorLogo {
+    display: flex;
+    margin-right: 400px;
+    justify-content: center;
+  }
+
+  .btn {
+    width: auto;
+    height: 40px;
+    background-color: #451952;
+  }
+
+  .buscar {
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+  }
+
+  .buscar input {
+    width: 300px;
+    height: 40px;
+  }
+
+  .buscar label {
+    font-size: 20px;
+  }
+
+  .btnEnviar {
+    width: 100px;
+    color: aliceblue;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
